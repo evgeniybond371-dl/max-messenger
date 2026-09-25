@@ -1,0 +1,35 @@
+.login {
+    border: 2px solid #fff;
+    width: 50%;
+    height: auto;
+    border-radius: 14px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.login__title {
+    margin-bottom: 12px;
+    font-size: 32px;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login__control {
+    height: 48px;
+    border-radius: 8px;
+    padding: 4px 12px;
+}
+
+.login__submit {
+    margin-top: 20px;
+}
+
+.login__submit-action {
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}

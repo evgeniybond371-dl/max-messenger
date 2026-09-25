@@ -1,0 +1,57 @@
+ .chats {
+    padding: 16px;
+    background-color: #fff;
+    border-right: 2px solid #0c0d0e0f;
+
+    .contacts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: calc(100% - 104px);
+
+        .empty {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &__icon {
+                color: #fff;
+                width: 72px;
+                height: 72px;
+                position: relative;
+                border-radius: 50%;
+                border: 2px solid blue;
+            }
+
+            &__description {
+                color: #060708;
+                text-align: center;
+                font-size: 17px;
+                font-weight: 600;
+            }
+
+            &__logo {
+                width: 56px;
+                height: 56px;
+                border-radius: 50%;
+                box-shadow: 0 0 50px 15px rgb(103 91 229);
+                margin-bottom: 8px;
+            }
+
+            &__add-chat {
+                button {
+                    color: #fff;
+                    background-color: #006ee5;
+                    height: 52px;
+                    min-width: 56px;
+                    padding: 16px 20px;
+                    cursor: pointer;
+                    font-size: 18px;
+                    border-radius: 16px;
+                    border: none;
+                }
+            }
+        }
+    }
+}
